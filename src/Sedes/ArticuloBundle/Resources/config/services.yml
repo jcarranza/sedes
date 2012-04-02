@@ -1,0 +1,7 @@
+parameters:
+#    sedes_articulos.example.class: Sedes\ArticulosBundle\Example
+
+services:
+#    sedes_articulos.example:
+#        class: %sedes_articulos.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

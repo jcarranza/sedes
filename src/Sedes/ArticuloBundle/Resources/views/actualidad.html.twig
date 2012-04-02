@@ -1,0 +1,6 @@
+{% for articulo in articulos %}
+	{{ articulo.id }} {{ articulo.titulo }}<br />
+	{{ util.getSlug(articulo.titulo) }}
+{% else %}
+	{{ articulos.id }} {{ articulos.titulo }}<br />
+{% endfor %}

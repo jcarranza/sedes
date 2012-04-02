@@ -1,0 +1,6 @@
+en RSS<br />
+{% for articulo in articulos %}
+{{ articulo.id }} {{ articulo.titulo }}<br />
+{% else %}
+{{ articulos.id }} {{ articulos.titulo }}<br />
+{% endfor %}

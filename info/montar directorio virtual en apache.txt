@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------------------------------1
+# C:/xampp\apache\conf\extra\httpd-vhosts.conf
+------------------------------------------------------------------------------------------------------
+
+NameVirtualHost *:80
+
+<VirtualHost *:80>
+	ServerName sedes
+	DocumentRoot "C:/xampp/htdocs/Symfony/web"
+</VirtualHost>
+
+-----------------------------------------------------------------------------------------------------2
+# C:/xampp/htdocs/Symfony/web/.htaccess
+------------------------------------------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ app_dev.php [QSA,L]
+</IfModule>
+

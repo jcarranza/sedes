@@ -1,0 +1,16 @@
+UtilBundle:
+    resource: "@UtilBundle/Resources/config/routing.yml"
+    prefix:   /
+
+CmsBundle:
+    resource: "@CmsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ArticuloBundle:
+    resource: "@ArticuloBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
