@@ -1,5 +1,1 @@
-# Instalar vendors a partir de deps
-php ./bin/vendors install
-
-# Reinstalar vendors a partir de deps
-php ./bin/vendors install --reinstall
+git pull
