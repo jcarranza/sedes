@@ -1,0 +1,30 @@
+Articulo:
+    pattern:  /
+    defaults: { _controller: "ArticuloBundle:Articulo:index" }
+
+Articulo_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ArticuloBundle:Articulo:show" }
+
+Articulo_new:
+    pattern:  /new
+    defaults: { _controller: "ArticuloBundle:Articulo:new" }
+
+Articulo_create:
+    pattern:  /create
+    defaults: { _controller: "ArticuloBundle:Articulo:create" }
+    requirements: { _method: post }
+
+Articulo_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ArticuloBundle:Articulo:edit" }
+
+Articulo_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ArticuloBundle:Articulo:update" }
+    requirements: { _method: post }
+
+Articulo_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ArticuloBundle:Articulo:delete" }
+    requirements: { _method: post }

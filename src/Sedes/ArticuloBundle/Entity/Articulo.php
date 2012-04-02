@@ -23,7 +23,7 @@ Class Articulo
  /** @ORM\Column() */
  protected $titulo;
 
- public function setTitulo(){
+ public function setTitulo($titulo){
      $this->titulo = $titulo;
  }
  public function getTitulo(){

@@ -1,0 +1,2 @@
+# Crear adm 
+php app/console generate:doctrine:crud --entity=ArticuloBundle:Articulo --route-prefix=Articulo --with-write --format=yml --no-interaction

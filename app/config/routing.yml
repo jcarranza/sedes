@@ -9,6 +9,10 @@ CmsBundle:
 ArticuloBundle:
     resource: "@ArticuloBundle/Resources/config/routing.yml"
     prefix:   /
+    
+ArticuloBundle_Adm:
+    resource: "@ArticuloBundle/Resources/config/adm.yml"
+    prefix:   /Articulo
 
 # Internal routing configuration to handle ESI
 #_internal:

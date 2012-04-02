@@ -1,11 +1,11 @@
 articulo_actualidad:
     pattern:  /actualidad/
-    defaults: { _controller: ArticuloBundle:Articulo:Actualidad }
+    defaults: { _controller: ArticuloBundle:Articulo1:Actualidad }
         
 articulo_archivo:
     pattern:  /archivo/
-    defaults: { _controller: ArticuloBundle:Articulo:Archivo }
+    defaults: { _controller: ArticuloBundle:Articulo1:Archivo }
     
-articulo:
+articulo_articulo:
     pattern:  /articulo/{slug}/
-    defaults: { _controller: ArticuloBundle:Articulo:Articulo }
+    defaults: { _controller: ArticuloBundle:Articulo1:Articulo }
